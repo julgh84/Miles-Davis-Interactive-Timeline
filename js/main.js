@@ -117,7 +117,20 @@ $(function(){
       // $('#bgvid').get(0).play();
       colorBkgGrowStep15();
 
+    } else if(currentStep.id==='step-17'){
+
+      // $('#bgvid').get(0).play();
+      colorBkgGrowStep17();
+
+    } else if(currentStep.id==='step-18'){
+
+      // $('#bgvid').get(0).play();
+      colorBkgGrowStep18();
+
     }
+
+
+
 
 
 
@@ -290,7 +303,7 @@ $(function(){
   function colorBkgGrowStep10(){
 
     $("#box-13").animate({width: "85%"}, 1500);
-    $("#box-14").animate({width: "20%"}, 1000);
+    $("#box-14").animate({width: "12%"}, 1000);
 
   };
 
@@ -322,6 +335,22 @@ $(function(){
 
     $("#box-20").animate({height: "75rem"}, 1800);
     $("#box-21").animate({height: "13%"}, 1800);
+
+  };
+
+
+
+  function colorBkgGrowStep17(){
+
+    $("#box-22").animate({width: "85%"}, 1500);
+    $("#box-23").animate({width: "12%"}, 1000);
+
+  };
+
+
+  function colorBkgGrowStep18(){
+
+    ("#d-3-name").animate({opacity: '1'}, 1800);
 
   };
 
