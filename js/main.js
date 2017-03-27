@@ -17,8 +17,13 @@ $(function(){
       colorBkgFadeStep2();
       colorBkgFadeStep4();
       
-     // $('#song-1').get(0).play();
-     // $('#song-2').get(0).pause();
+     $('#song-1').get(0).play();
+     $('#song-1').animate({volume: 1}, 1000);
+
+
+     $('#song-2').animate({volume: 0}, 1000);
+
+     $('#song-6').get(0).pause();
 
     } else if(currentStep.id==='step-2')
     {
@@ -48,26 +53,24 @@ $(function(){
       
       // logic to fadeout
       $('#song-1').animate({volume: 0}, 1000);
-      //$('#song-1').get(0).pause();
 
-      // $('#song-2').get(0).play();
       $('#song-2').animate({volume: 1}, 2000);
+      $('#song-2').get(0).play();
       
 
     } else if(currentStep.id==='step-5')
-    {
+    { 
 
-      // $('#song-2').get(0).play();
-
-
-
-      // $("#trumpet").animate({opacity: '0'}, 600);
+      $("#trumpet").animate({opacity: '0'});
 
       colorBkgFadeStep6();
 
 
     } else if(currentStep.id==='step-6')
     {
+
+
+      $('#song-3').animate({volume: 0}, 1000);
 
       colorBkgGrowStep6();
 
@@ -76,7 +79,7 @@ $(function(){
 
       $('#song-2').animate({volume: 0}, 1000);
 
-      // $('#song-3').get(0).play();
+      $('#song-3').get(0).play();
       $('#song-3').animate({volume: 1}, 2000);
 
 
@@ -98,14 +101,33 @@ $(function(){
 
       $("#d-2-name").animate({opacity: '0'}, 1200);
 
+      $('#song-4').animate({volume: 0}, 1000);
+
     } else if(currentStep.id==='step-11'){
 
+      $('#song-3').animate({volume: 0}, 1000);
+
+      $('#song-4').get(0).play();
+      $('#song-4').animate({volume: 1}, 2000);
+
       colorBkgGrowStep11();
+
+    } else if(currentStep.id==='step-12'){
+
+      $('#song-5').animate({volume: 0}, 1000);
 
     } else if(currentStep.id==='step-13'){
 
       colorBkgGrowStep13();
       $('#bgvid').get(0).pause();
+
+      $('#song-4').animate({volume: 0}, 1000);
+
+
+      $('#song-5').get(0).play();
+      $('#song-5').animate({volume: 1}, 2000);
+
+
 
     } else if(currentStep.id==='step-14'){
 
@@ -115,6 +137,16 @@ $(function(){
 
       // $('#bgvid').get(0).play();
       colorBkgGrowStep15();
+
+    } else if(currentStep.id==='step-16'){
+
+      $('#song-5').animate({volume: 0}, 1000);
+
+
+      $('#song-6').get(0).play();
+      $('#song-6').animate({volume: 1}, 2000);
+
+
 
     } else if(currentStep.id==='step-17'){
 
@@ -128,19 +160,12 @@ $(function(){
 
     }
 
-
-
-
-
-
-    
-
     
 
 
-    console.log( "Entered the Step Element: " + currentStep.id);
+    // console.log( "Entered the Step Element: " + currentStep.id);
 
-    console.log(typeof currentStep.id==='string');
+    // console.log(typeof currentStep.id==='string');
 
     
   });
