@@ -93,7 +93,6 @@ $(function(){
 
     } else if(currentStep.id==='step-10'){
 
-      // $('#bgvid').get(0).play();
 
       colorBkgGrowStep10();
 
@@ -307,7 +306,8 @@ $(function(){
 
   };
 
-   function colorBkgFade10(){
+
+   function colorBkgFadeStep10(){
 
     $("#box-13").animate({width: "0%"}, 600);
     $("#box-14").animate({width: "0%"}, 600);
@@ -350,7 +350,7 @@ $(function(){
 
   function colorBkgGrowStep18(){
 
-    ("#d-3-name").animate({opacity: '1'}, 1800);
+    $("#d-3-name").animate({opacity: '1'}, 1800);
 
   };
 

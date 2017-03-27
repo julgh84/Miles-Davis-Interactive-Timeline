@@ -115,8 +115,8 @@ img{
 
 .caja{
   
-  b/*ackground-color: rgba(255,255,255,0.14);
-  border: 1px solid white;*/
+  background-color: rgba(255,255,255,0.14);
+  border: 1px solid white;
   
   color: white;
   margin-left: 0;
@@ -325,7 +325,7 @@ img{
 .content-transition-1{
 
   margin:0 auto;
-  margin-top: 6rem;
+  margin-top: -12rem;
 
   width: 80%;
   height: 90%;
@@ -336,56 +336,66 @@ img{
 
 }
 
-.description-t1{
 
-  margin:0 auto;
+.all-d-t1{
 
-  width: 90%;
-  height: 100%;
-
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  position: relative;
 
 }
 
 
 
-.quote-1{
+.info-content-t-1{
 
-  margin:0 auto;
-  /*margin-top: 8rem;*/
-  /*margin-left: -10rem;*/
+  margin: 0 auto;
+  /*margin-top: 5em;*/
 
-  height: 50rem;
+  height: 95%;
   width: 100%;
 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+
 }
 
-.quote-1 p{
+.transition-1-txt{
+
+  margin:0 auto;
+  margin-top: 0.25em;
+
+  width: 100%;
+  height: 91%;
+
+}
+
+.transition-1-txt p{
+
   font-weight: 100;
-  font-size: 2.8em;
+  font-size: 3.2em;
   line-height: 1.6;
+  padding-top: 0em;
+  padding-bottom: 0.2em;
 
 }
 
 
-.author-1{
+.transition-1-quote{
 
-  margin-right: 10rem;
+  margin:0 auto;
+  width: 100%;
+
 
 }
 
 
-.author-1 p{
-  
-  font-weight: 100;
-  font-style: italic;
-  font-size: 3rem;
+.transition-1-quote p{
   text-align: right;
-
+  font-size: 2.2em;
 }
+
+
 
 
 #box-4{
@@ -2975,23 +2985,6 @@ video {
 
 
 
-.decade2C-title{
-
-  margin-left: 0;
-  margin-top: 0;
-  /*margin-top: 3rem;*/ 
-
-  background-color: black;
-  /*width: 110rem;*/
-
-}
-
-.decade2C-title h2{
-
-  padding-left: 0.5em;
-
-}
-
 .decade2C-description-txt{
   margin-top: -5em;
   width: 101%;
@@ -3946,10 +3939,505 @@ video {
 
   }
 
-.transition-6-txt{
+  .transition-6-txt{
 
-  height: 50%;
+    height: 50%;
+  }
+
+  /*//////////////////////////////*/
+
+  /*Step-16*/
+
+
+
+  .decade-2C{
+
+    margin-top: 10rem;
+    
+
+  }
+
+  .decade-2C .container{
+
+    width: 100%;
+    height: 100%;
+    /*background-color: rgba(255,255,255,0.08);*/
+
+  }
+
+
+  .discography-decade-2{
+
+    margin-left: 46rem; 
+    margin-top: -1.5em;
+    width: 75%;
+
+  }
+
+
+  .layout-decade-2C{
+
+    width: 100%;
+    height: 110%;
+    background-color: rgba(255,255,255,0.08);
+
+  }
+
+
+  .timeline-p2C{
+
+    width: 12.65rem;
+    height: 90%;
+    margin-top: -13em;
+    margin-left: 5rem;
+
+  }
+
+  .decade2C-description-txt{
+    margin-top: -12em;
+
+  }
+
+
 }
+
+
+@media only screen 
+and (min-width : 884px) 
+and (max-width : 1024px)
+and (min-height: 560px) 
+and (max-height: 768px) 
+and (orientation : landscape) { 
+
+
+/*//////////////////////////////*/
+
+/*Step-1*/
+
+.intro-content {
+  margin-top: 7rem;
+}
+
+.intro-content {
+  height: 95%;
+}
+
+.introMiles {
+  width: 30em;
+}
+
+.info-container h1 {
+  font-size: 15em;
+  margin-left: -1.5rem;
+}
+
+.description-1 {
+  width: 125%;
+  height: 105%;
+}
+
+.description-1 p{
+  font-size: 2.4em;
+  line-height: 1.6;
+}
+
+
+
+/*Step-2*/
+
+  #box-4{
+    height: 92%;
+  }
+
+  .info-content-t-1 {
+    margin-top: 3em;
+  }
+
+
+/*Step-3*/
+
+  .timeline, .decade-1, .decade-1B, .transition-1B, .decade-1C, .transition-1C, .decade-2A, .transition-2A, .decade-2C, .dtransition-2C, .decade-3{
+    margin-top: 7em;
+  }
+  
+
+  .layout-decade-1, .layout-decade-1A, .layout-transition-1A, .layout-decade-1B, .layout-decade-1C, .layout-transition-1C, .layout-decade-2, .layout-transition-2A, .layout-transition-2C, .layout-decade-3{
+    height: 100%;
+  }
+
+  .content-intro-timeline, .content-decade-1, .content-decade-2{
+    margin-top: -9.5rem;
+
+  }
+
+  #box-5 {
+    margin-top: 9rem;
+  }
+
+
+  /*Step-4*/
+
+
+  .bkg-animate-step4 {
+    margin-top: -5em;
+  }
+
+  /*Step-5*/
+
+  .decade-1A, .transition-1A, .decade-1B {
+    margin-top: 5em;
+  }
+
+  .halftone-bkg {
+    height: 97%;
+    margin-top: -3rem;
+    margin-left: 19rem;
+  }
+
+  .content-decade-1A {
+
+    margin-top: 9em;
+
+  }
+
+  .info-content-d1A {
+    margin-top: -10rem;
+    height: 100%;
+  }
+
+  .description-1A p {
+    font-size: 2.2rem;
+  }
+
+  /*Step-6*/
+
+  .content-transition-1A{
+    margin-top: 0em;
+    height: 100%;
+  }
+
+
+  .timeline-p1A, .timeline-t1A{
+    height: 93rem;
+    width: 9em;
+  }
+
+  #box-10 {
+    margin-top: 51em;
+  }
+
+
+
+  /*Step-7*/
+
+  .content-decade-1B {
+    margin-top: 10em;
+  }
+
+  .halftone-bkg2{
+    margin-top: -3rem;
+    margin-left: 19rem;
+  }
+
+  .timeline-p1B {
+    width: 9em;
+  }
+
+  .all-d1B .info-content-d1B {
+      margin-left: 5em;
+  }
+
+  /*Step-8*/
+
+  .content-transition-1B, .content-transition-2A {
+    margin-top: 0em;
+    height: 90%;
+
+  }
+
+  .layout-transition-1B {
+    height: 95%;
+  }
+
+  .info-content-t-1B {
+    margin-top: 0em;
+  }
+
+
+  .transition-3-txt {
+      
+    margin-top: 3em;
+    height: 85%;
+  }
+
+
+  #box-12 { 
+    margin-left: 1.5em;
+    margin-top: 51.25em;
+  }
+
+
+  .timeline-t1B, .timeline-t2A, .timeline-t2B{
+
+    height: 91rem;
+    width: 9em;
+
+  }
+
+
+  /*Step-9*/
+
+  .content-decade-1C {
+    margin-top: 10em;
+
+  }
+
+  .discography-decade-1 {
+    margin-top: -0.125em;
+    margin-left: 18rem;
+    width: 100%;
+    height: 100%;
+  }
+
+  .discography{
+
+    width: 90%;
+    margin-left: 0rem;
+
+  }
+
+
+  .timeline-p1C {
+
+    height: 91rem;
+    width: 9em;
+
+  }
+
+  .info-content-d1C {
+    margin-top: -2rem;
+  }
+
+  /*Step-10*/
+
+  .content-transition-1C{
+    height: 100%;
+  }
+
+  .timeline-t1C{
+
+    height: 93.5rem;
+    width: 9em;
+    margin-top: -2em;
+
+  }
+
+  .animate-bkg-slide10{
+    margin-top: -6.5em;
+    margin-left: 2em;
+  }
+
+  #box-14 {
+    margin-top: 65em;
+    margin-left: 141rem;
+  }
+
+  .transition-4-txt {
+    margin-left: -5.5em;
+  }
+
+  .transition-4-txt p {
+    font-size: 2.4em;
+  }
+
+  /*Step-11*/
+
+  .decade-2{
+    margin-top: 7.75em;
+  }
+
+  .content-decade-2{
+    height: 100%;
+    margin-top: 0em;
+  }
+
+  .bkg-animate-step11 {
+    margin-top: -7.25em;
+    height: 100%;
+  }
+
+  #box-15, #box-16, #box-17 {
+    height: 100%;
+  }
+
+  .decade-2-title {
+    width: 59%;
+  }
+
+
+  /*Step-12*/
+
+  .layout-decade-2A{
+    height: 95%;
+  }
+
+  .halftone-bkg3 {
+    margin-top: -3rem;
+    margin-left: 19rem;
+    height: 95%;
+  }
+
+
+
+  .content-decade-2A{
+    margin-top: 7em;
+    height: 90%;
+  }
+
+  .info-content-d2A {
+    margin-top: -7rem;
+  }
+
+
+
+  .timeline-p2A {
+
+    height: 91rem;
+    width: 9em;
+    margin-top: -7em;
+
+  }
+
+  /*Step-13*/
+
+  .info-content-t-2A {
+    margin-top: 0em;
+  }
+
+  .transition-5-txt{
+    margin-top: 2em;
+    height: 90%;
+  }
+
+  .transition-5-txt p{
+    font-size: 2.15em;
+  }
+
+  /*Step-14*/
+
+  .decade-2B-video{
+    margin-top: 1em;
+  }
+
+  .video-test{
+    height: 100%;
+  }
+
+  /*Step-15*/
+
+  .layout-transition-2B{
+    margin-top: 5em;
+    height: 100%;
+
+  }
+
+  .content-transition-2B{
+    height: 100%;
+    margin-top: 0em;
+  } 
+
+  /*Step-16*/
+
+  .layout-decade-2C{
+    height: 96%;
+  }
+
+  .content-decade-2C{
+    height: 92%;
+  }
+
+
+  .discography-decade-2 {
+    margin-top: -0.125em;
+    margin-left: 18rem;
+    width: 100%;
+    height: 96%;
+
+
+  }
+
+
+  .timeline-p2C {
+
+    height: 91.5rem;
+    width: 9em;
+    margin-top: -13em;
+  }
+
+  .discography-2 {
+
+    width: 90%;
+    margin-left: 0rem;
+
+  }
+
+  /*Step-17*/
+
+  .content-transition-2C {
+    margin-top: 0em;
+  }
+
+  .timeline-t2C {
+    height: 91.5rem;
+    width: 9em;
+  }
+
+  .animate-bkg-slide17{
+
+    margin-top: -4.5em;
+    margin-left: 2em;
+
+  }
+
+  #box-22, #box-23 {
+    height: 112%;
+  }
+
+  #box-23{
+    margin-top: 61.5em;
+    margin-left: 142rem;
+  }
+
+  .transition-7-txt {
+    margin-left: 0.25em;
+    width: 85%;
+  }
+
+  .transition-7-txt p{
+    font-size: 2.7em;
+  }
+
+  /*Step-18*/
+
+  .decade-3{
+    margin-top: 7.65em;
+  }
+
+  .content-decade-3 {
+    height: 100%;
+    margin-top: 0em;
+  }
+
+  .bkg-animate-step18 {
+
+    margin-top: -7em;
+  }
+
+  #box-24, #box-25, #box-26 {
+    height: 94.5%;
+  }
+
+
 
 
 
